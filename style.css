@@ -1,0 +1,59 @@
+/* General Reset for Consistent Layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Basic font family */
+}
+
+/* Navigation Bar Styling */
+header {
+    background-color: #ffffff; /* Dark background for the header */
+    padding: 1rem; /* Padding around the header */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullets from the navigation items */
+    display: flex; /* Flexbox layout to align items horizontally */
+    justify-content: left; /* Center the navigation items */
+}
+
+nav ul li {
+    margin: 0 1rem; /* Add space between the menu items */
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0); /* Make text white */
+    text-decoration: none; /* Remove the underline from links */
+    font-size: 1.2rem; /* Increase the font size */
+}
+
+/* Main Content Styling */
+main {
+    padding: 2rem; /* Add space around the content area */
+}
+
+.content {
+    max-width: 1200px; /* Set a maximum width for content to prevent stretching on large screens */
+    margin: 0 auto; /* Center the content */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333; /* Dark footer background */
+    color: white; /* White text */
+    text-align: center; /* Center the text */
+    padding: 1rem;
+}
+.main-nav__separator {
+    display: block;
+    height: 0;
+    border-top: 2px solid #eee;
+    margin-top: 0.5cm;
+}
+.right_nav{
+    justify-content: right;
+}
